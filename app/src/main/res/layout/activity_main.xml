@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/numtelefonico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Número Telefónico"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/butonabrir_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abrir Teléfono"
+        android:onClick="intentTelefono"/>
+
+    <EditText
+        android:id="@+id/paginaweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Página Web"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/butonabrir_paginaweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abrir página web"
+        android:onClick="intentWeb"/>
+
+    <Button
+        android:id="@+id/butonabrir_mapas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abrir Mapas"
+        android:onClick="intentMaps"/>
+
+</LinearLayout>
